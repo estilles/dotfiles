@@ -1,0 +1,12 @@
+[merge]
+	ff = yes
+[pull]
+	ff = yes
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+[init]
+	defaultBranch = main
+[core]
+	edit = code --wait
+	editor = code --wait
